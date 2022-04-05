@@ -37,7 +37,7 @@ const handler = async (cart) => {
   try {
 
     const hasuraendpoint ="https://digital-qa-graphql.hasura.app/v1/graphql";
-    const adminsecret = "k5IF0IfYkKDg2091RjfVyB4JVUqE4CkMEh1Rh76djjBjiSB8wZVj26Y4Qjp9fHWY";
+    const adminsecret = cart.headers.adminsecret;
      
     const headers = {
       "content-type": "application/json",
