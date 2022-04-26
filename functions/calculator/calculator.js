@@ -27,8 +27,8 @@ const handler = async (cart) => {
 
   const variables = {
     "cartid" : request.cartid,//"b16b1937-4356-4eaf-9a9f-311508eb2179"  ,
-    "discount": "20.0",
-    "total": "200", 
+    "discount": "25.0",
+    "total": "250", 
     "tax": "25",
     "shipping": "10", 
     "productprice": "95",
